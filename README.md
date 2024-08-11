@@ -6,16 +6,13 @@
   
   Ссылка на проект в EasyEDA - [EasyEDA_ELRS_TX](https://easyeda.com/editor#project_id=af067bf24880471aa657eca3477f4bab) (пока нет готовой платы, можно создать свою)
 
-# Ссылки на комплектующие 
-* [EBYTE E32-900M30S](https://aliexpress.ru/item/1005003505199724.html?sku_id=12000026091105071)
-* [ESP32](https://aliexpress.ru/item/32858054775.html?sku_id=12000021656141439&spm=a2g2w.productlist.search_results.0.638c15d3m10jme)
-* [DC-DC StepDown](https://aliexpress.ru/item/32801569565.html?sku_id=12000037978311750&spm=a2g2w.productlist.search_results.11.50754011WHtevf) 
 
 # Схема
 ![Scheme](img/Scheme.png)    
 #### На понижающем преобразователе необходимо перерезать дорожку и запаять перемычку на 3.3В
 ![StepDown](img/StepDown.png)    
   
-
-
-
+# Ссылки на комплектующие 
+* [EBYTE E32-900M30S](https://aliexpress.ru/item/1005003505199724.html?sku_id=12000026091105071)
+* [ESP32](https://aliexpress.ru/item/32858054775.html?sku_id=12000021656141439&spm=a2g2w.productlist.search_results.0.638c15d3m10jme)
+* [DC-DC StepDown](https://aliexpress.ru/item/32801569565.html?sku_id=12000037978311750&spm=a2g2w.productlist.search_results.11.50754011WHtevf) 
