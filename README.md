@@ -13,7 +13,7 @@
 - **Working Contract:** CRSF (Betaflight)
 - **Antenna Size:** 315mm x 97mm (There is a 1-3cm error in manual measurement)
 
-![Devices](img/device.webp)
+![Devices](img/device.jpg)
 
 ---
 
@@ -46,7 +46,7 @@ BelinRC ELRS-433-TX, the high-frequency head, is a new generation of wireless re
 - **Input Voltage:** 5-12V (2S)
 - **Main Control IC:** ESP32 + SX1278, ESP8285 Backpack Chip
 
-![capacityes](img/capacity.webp)
+![capacityes](img/capacity.jpg)
 
 BelinRC ELRS-433-TX, the high-frequency head, can be used with all remote controls on the market that use the JR interface. (Interface Diagram):
 
@@ -69,7 +69,7 @@ If you want to modify the power and refresh rate of the ELRS high-frequency head
 - If the LUA script executes successfully, the following figure shows the page.
 - Using the LUA script, you can choose to configure parameters such as **Rate**, **Ratio**, and **Power**. The following table describes all the features of the LUA script.
 
-![LUA-v3s](img/LUA-v3.webp)
+![LUA-v3s](img/LUA-v3.jpg)
 
 _Note: The official LUA ELR script
 
@@ -289,14 +289,14 @@ The transmitter can be assembled without a board using surface mounting, or the 
 Link to the project in EasyEDA - [EasyEDA_ELRS_TX](https://easyeda.com/editor#project_id=af067bf24880471aa657eca3477f4bab) (there is no ready board yet, you can create your own)
 
 # Scheme
-![Schemes](img/Scheme.png)
+![Schemes](img/Scheme.jpg)
 
 #### On the step-down converter, you need to cut the track and solder the jumper to 5V
-![StepDowns](img/StepDown.png)
+![StepDowns](img/StepDown.jpg)
 
 # Firmware
 You can flash it using the [ExpressLRS Configurator](https://github.com/ExpressLRS/ExpressLRS-Configurator/releases) program. Select Device Category - **DIY devices 900 MHz** Device - **DIY ESP32 E19 900MHz TX**
-![Targets](img/Target.png)
+![Targets](img/Target.jpg)
 Firmware method **UART**, enter your bind phrase, select FCC_915 domain, connect ESP32 to the computer and flash!
 ___
 You can unlock full power from the transmitter's Wi-Fi page. To do this, you need to check the **UNLOCK_HIGHER_POWER** box
